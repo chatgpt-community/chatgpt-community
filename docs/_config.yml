@@ -1,0 +1,153 @@
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site favicons & manifest icons
+# 9. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.mdw
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
+
+# 2. Installed Gems
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+
+# 3. Gem settings
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+author: panda # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: panda # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://chatgpt-community.cn/
+    - https://github.com/chatgpt-community/chatgpt-community
+# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
+# commonmark:
+  # options: ["SMART", "FOOTNOTES"]
+  # extensions: ["strikethrough", "autolink", "table"]
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/London # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: ChatGPT共创社区 # Needed for Siteleaf
+    output: true
+    description: "ChatGPT 共创社区" # The post list page content
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/about/about.png" # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
+title: "chatgpt community" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/about/logo.png" # Site logo, also used in jekyll-seo-tag
+description: "创意交流、想法共创、寻找方案、交换资源、内容分享！" # Site description and default description, also used in jekyll-seo-tag
+url: "https://chatgpt-community.cn" # Site url, also used in jekyll-seo-tag
+baseurl: "/"
+repo: "https://github.com/chatgpt-community/chatgpt-community"
+email: "chatgpt_community@163.com"
+# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+# date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
+# google_analytics: ""
+# google_analytics_anonymize_ip: ""
+# service_worker: false # Will turn off the service worker if set to false
+# short_name: "Al" # The web application short name, defaults to the site title
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+# 8. Site favicons & manifest icons
+favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+  16: '/assets/logo.png'
+  32: '/assets/logo.png'
+  96: '/assets/logo.png'
+  120: '/assets/logo.png'
+  144: '/assets/logo.png'
+  180: '/assets/logo.png'
+  512: '/assets/logo.png'
+  1024: '/assets/logo.png'
+
+# 9. Site navigation
+navigation_header:
+- title: 主页
+  url: /
+- title: 官网
+  url: https://platform.openai.com/overview
+- title: API文档
+  url: https://platform.openai.com/docs/introduction
+- title: 全球社区
+  url: https://community.openai.com/
+- title: 共创研讨
+  url: /categories/
+- title: 项目路演
+  url: /blog/
+- title: 检索
+  url: /search/
+- title: 参与社区活动
+  url: https://github.com/chatgpt-community/chatgpt-community
+
+navigation_footer:
+- title: 联系我们：chatgpt_community@163.com
+  url: chatgpt_community@163.com
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  GitHub: https://github.com/chatgpt-community
+  RSS: /feed.xml
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+
+# Load custom fonts from fonts.google.com etc
+#
+# TIP: Try to keep the number of urls as low to reduce the performance cost
+#      If multiple fonts can be requested in a single url opt for this
+fonts:
+  preconnect_urls:
+    - https://fonts.gstatic.com
+  font_urls:
+    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
