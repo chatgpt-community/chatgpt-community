@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/logo.png" width="200" eight="130">
+    <img src="./assets/logo.png" width="200" eight="130">
     <p align="center">
         <img src="./assets/1.png" width="80" height="80">
         <img src="./assets/2.png" width="80" height="80">
@@ -8,10 +8,10 @@
         <img src="./assets/5.png" width="80" height="80">
     </p>
     <p align="center">
-        亲爱的朋友，你好，我们是ChatGPT代号DALL.E.2创造出来的胖嘚(PANDA)家族。这个共创社区以后将由我们来替你守护！
+        你好，我们是ChatGPT代号DALL.E.2创造出来的胖嘚(PANDA)家族。我们这次的任务是守护社区
     </p>
     <p align="center">
-        从左到右，你可以称呼我们为 熊大、噢耶、锅盖、胖帅、不服老幺
+        你可以称呼我们为 熊大、噢耶、锅盖、胖帅、不服老幺
     </p>
 </p>
 
