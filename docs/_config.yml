@@ -126,8 +126,12 @@ navigation_header:
   url: /blog/
 - title: 检索
   url: /search/
-- title: 参与社区活动
+- title: Github
   url: https://github.com/chatgpt-community/chatgpt-community
+- title: Twitter
+  url: https://twitter.com/ChatgptPanda4
+- title: 知识星球
+  url: https://wetalk-1259114324.cos.ap-chengdu.myqcloud.com/mp/space.jpeg
 
 navigation_footer:
 - title: 联系我们：chatgpt_community@163.com
