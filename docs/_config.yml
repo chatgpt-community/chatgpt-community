@@ -88,7 +88,7 @@ title: "chatgpt community" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/about/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "创意交流、想法共创、寻找方案、交换资源、内容分享！" # Site description and default description, also used in jekyll-seo-tag
 url: "https://chatgpt-community.cn" # Site url, also used in jekyll-seo-tag
-baseurl: "/"
+baseurl: ""
 repo: "https://github.com/chatgpt-community/chatgpt-community"
 email: "chatgpt_community@163.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
@@ -114,27 +114,22 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: 主页
   url: /
-- title: 官网
-  url: https://platform.openai.com/overview
-- title: API文档
-  url: https://platform.openai.com/docs/introduction
-- title: 全球社区
-  url: https://community.openai.com/
-- title: 共创研讨
-  url: /categories/
-- title: 项目路演
+- title: Prompts
   url: /blog/
-- title: 检索
-  url: /search/
-- title: Github
-  url: https://github.com/chatgpt-community/chatgpt-community
+- title: 项目
+  url: https://github.com/organizations/GPT-Coding
 - title: Twitter
   url: https://twitter.com/ChatgptPanda4
 - title: 知识星球
   url: https://wetalk-1259114324.cos.ap-chengdu.myqcloud.com/mp/space.jpeg
 - title: 抖音
   url: https://wetalk-1259114324.cos.ap-chengdu.myqcloud.com/mp/douying.jpeg
-
+- title: OpenAPI官网
+  url: https://platform.openai.com/overview
+- title: API文档
+  url: https://platform.openai.com/docs/introduction
+- title: 全球社区
+  url: https://community.openai.com/
 
 navigation_footer:
 - title: 联系我们：chatgpt_community@163.com
