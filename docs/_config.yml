@@ -116,7 +116,7 @@ navigation_header:
   url: /
 - title: Prompts
   url: /blog/
-- title: 项目
+- title: 开源项目
   url: https://github.com/organizations/GPT-Coding
 - title: Twitter
   url: https://twitter.com/ChatgptPanda4
