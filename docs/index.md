@@ -7,31 +7,38 @@ excerpt: "ChatGPT, 共创社区"
 Aside: true
 ---
 
-> OpenAI API 几乎可以应用于任何涉及理解或生成自然语言或代码的任务
+<p align="center">
+    <p align="center">
+        <img src="./assets/index/1.png" width="80" height="80">
+        <img src="./assets/index/2.png" width="80" height="80">
+        <img src="./assets/index/3.png" width="80" height="80">
+        <img src="./assets/index/4.png" width="80" height="80">
+        <img src="./assets/index/5.png" width="80" height="80">
+    </p>
+    <p align="center">
+        你好，我们是ChatGPT代号DALL.E.2创造出来的胖嘚(PANDA)家族。我们这次的任务是守护社区<br/>
+        你可以称呼我们为 熊大、噢耶、锅盖、胖帅、不服老幺
+    </p>
+</p>
 
-![image](/assets/about/about.png)
+
+如果不了解什么是ChatGPT, 可以访问ChatGPT官网了解更多信息，以下是相关资源链接
+- [ChatGPT共创社区网站](https://chatgpt-community.cn/)
+- [ChatGPT官网](https://platform.openai.com/) 
+- [ChatGPT论坛](https://community.openai.com/)
+- [ChatGPT案例](https://platform.openai.com/examples)
+- [ChatGPT文档](https://platform.openai.com/docs/introduction/)
+
+## 在这儿可以做什么
+- 提供学习ChatGPT的相关资源和资料 ![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
+- 分享有趣有价值的博客，与他人交流 ![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
+- 参与共创研讨会、让你在思想碰撞当中寻求灵感 ![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
+- 寻找到志同道合的朋友甚至是合作伙伴 ![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
+- 赋能产品和技术解决方案、完成技术团队搭建 ![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
+- 开展项目工作坊、赋能项目落地 ![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
+- 项目路演，让你这匹千里马遇上真正的伯乐！![rating](https://img.shields.io/badge/rating-★★★★★-brightgreen)
 
 
-### 平台论坛
+### 微信加好友了解更多细节
 
-关于话题和用户反馈，请在[Github Iusse](https://github.com/chatgpt-community/chatgpt-community/issues){:target="_blank"}上寻找和创建相应话题频道
-
-### 准则
-
-> 社区空间由大家共同运营。访问ChatGPT官方社区[ChatGPT](https://community.openai.com/faq){:target="_blank"}
-
-#### 请做：
-* 与其他成员的交流要友好、热情、尊重和建设性。
-* 协作。分享知识、提示提示/技巧，并帮助回答来自社区其他成员的问题。
-* 本着分享，交换信息的原则。
-
-#### 请不要：
-* 侮辱或贬低其他成员。
-* 请不要发表亵渎、淫秽或侮辱性的评论。如果您的提示或输出包含令人反感的内容，请仅发布触发警告消息。
-* 在多个主题/类别中交叉发布相同的内容
-* 宣传无关的服务。不允许向其他成员发送垃圾邮件或其他形式的自我推销。
-
-#### 终止和取消
-* 平台保留随意审查和删除社区内容和应用程序的权利，恕不另行通知。任何违反上述准则的人都可能被驱逐出社区。
-
-<!-- ## menue name -->
+<img src="./assets/index/code.png" width="250" >
