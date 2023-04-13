@@ -114,6 +114,10 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: 主页
   url: /
+- title: ChatGPT使用教程
+  url: https://github.com/chatgpt-community/money/  
+- title: 开源项目
+  url: https://github.com/GPT-Coding  
 - title: OpenAPI官网
   url: https://platform.openai.com/overview
 - title: API文档
@@ -122,14 +126,13 @@ navigation_header:
   url: https://community.openai.com/  
 - title: Prompts
   url: https://learnprompting.org/zh-Hans/  
-- title: 开源项目
-  url: https://github.com/GPT-Coding  
-- title: Twitter
-  url: https://twitter.com/ChatgptPanda4
 - title: 知识星球
-  url: https://wetalk-1259114324.cos.ap-chengdu.myqcloud.com/mp/space.jpeg
+  url: https://wetalk-1259114324.cos.ap-chengdu.myqcloud.com/mp/space.jpeg  
 - title: 抖音
   url: https://wetalk-1259114324.cos.ap-chengdu.myqcloud.com/mp/douying.jpeg
+- title: Twitter
+  url: https://twitter.com/ChatgptPanda4
+
 
 navigation_footer:
 - title: 联系我们：chatgpt_community@163.com
