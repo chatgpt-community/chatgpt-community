@@ -114,7 +114,7 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: 主页
   url: /
-- title: ChatGPT使用教程
+- title: 教程
   url: https://github.com/chatgpt-community/money/  
 - title: 开源项目
   url: https://github.com/GPT-Coding  
