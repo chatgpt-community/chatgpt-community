@@ -115,12 +115,12 @@ navigation_header:
 - title: 主页
   url: /
   
-- title: OpenAPI官网
+- title: OpenAI官网
   url: https://platform.openai.com/overview
-- title: API文档
-  url: https://platform.openai.com/docs/introduction
 - title: 全球社区
   url: https://community.openai.com/  
+- title: API文档
+  url: https://platform.openai.com/docs/introduction  
 - title: 开源项目
   url: https://github.com/GPT-Coding    
 - title: Twitter
