@@ -121,12 +121,12 @@ navigation_header:
   url: https://community.openai.com/  
 - title: API文档
   url: https://platform.openai.com/docs/introduction  
-- title: 开源项目
-  url: https://github.com/GPT-Coding    
 - title: Twitter
   url: https://twitter.com/ChatgptPanda4
 - title: Prompts
   url: https://learnprompting.org/zh-Hans/  
+- title: 社区项目
+  url: https://github.com/chatgpt-community?tab=repositories    
 - title: 使用教程
   url: https://chatgpt-community.cn/zhinan/  
 - title: 知识星球
